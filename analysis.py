@@ -3,8 +3,6 @@ import argparse
 import json
 import pprint
 
-# installed modules
-import numpy as np
 
 pp = pprint.PrettyPrinter(indent=4)
 
