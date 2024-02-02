@@ -45,9 +45,9 @@ for elmt in senders_dict:
 		if senders_dict[elmt]["suspicious"] == True:
 			count_suspicious+=1
 			unique_mail_suspicious_list.append(elmt)
-# print(f"Number of mail addresses sending a single email: {count}")
-# print(f"Number of suspicious mail addresses sending a single email: {count_suspicious}")
-# print(unique_mail_suspicious_list)
+print(f"Number of mail addresses sending a single email: {count}")
+print(f"Number of suspicious mail addresses sending a single email: {count_suspicious}")
+print(unique_mail_suspicious_list)
 
 # order received emails per descending order
 sorted_dict = sorted(senders_dict.items(), key = lambda x: x[1]['count'])
